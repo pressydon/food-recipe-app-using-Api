@@ -1,0 +1,30 @@
+.all-recipe-alphabets{
+
+    /* width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
+    grid-gap: 2rem; */
+
+
+
+     display: flex;
+    max-width: 90%;
+    flex-wrap: wrap;
+    
+    margin: 20px auto; 
+}
+.alphaBox{
+    margin: 5px;
+    background: white ;
+    padding: 10px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.alphaBox:hover{
+ box-shadow: black 1px   1px 5px;
+}
